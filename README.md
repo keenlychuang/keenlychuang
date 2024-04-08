@@ -7,7 +7,7 @@
 
 🪨 **Previous work:**
 
-- Previously, I was a research assistant at the Probabilistic Computing Project at MIT ([(probcomp)](http://probcomp.csail.mit.edu/)) for my MEng
+- Previously, I was a research assistant at the Probabilistic Computing Project at MIT ([(probcomp)](http://probcomp.csail.mit.edu/%29)) for my MEng
 - I also worked on visualization, data synthesis, and testing for Cora Agent in the Machine Common Sense challenge with the MIT-IBM Watson AI Lab
 
 🌵 **Current interests:**
