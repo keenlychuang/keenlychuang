@@ -2,8 +2,8 @@
 
 📖 **About me:**
 
-- Software/Data Engineer working in Atlanta, GA → Boston, MA → Washington DC (?)
-- Working to use information and engineering for the good of humanity
+- Software/Data Engineer working in Atlanta, GA → Boston, MA -> Atlanta, GA 
+- Working to use information and engineering to build scalable solutions to pressing issues 
 
 🪨 **Previous work:**
 
