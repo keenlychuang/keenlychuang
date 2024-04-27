@@ -3,12 +3,13 @@
 📖 **About me:**
 
 - Software/Data Engineer working in Atlanta, GA → Boston, MA -> Atlanta, GA 
-- Working to use information and engineering to build scalable solutions to pressing issues 
+- Working to use information and engineering to build scalable solutions to pressing issues
 
 🪨 **Previous work:**
 
-- Previously, I was a research assistant at the Probabilistic Computing Project at MIT ([probcomp](http://probcomp.csail.mit.edu/%29)) for my MEng
-- I also worked on visualization, data synthesis, and testing for Cora Agent in the Machine Common Sense challenge with the MIT-IBM Watson AI Lab
+- I was a research assistant at the Probabilistic Computing Project at MIT ([probcomp](http://probcomp.csail.mit.edu/%29)) for my Masters of Engineering degree 
+- I also worked on trace visualization, data synthesis, and testing for Cora Agent in the Machine Common Sense challenge with the MIT-IBM Watson AI Lab
+- I interned as a digital informatics and technology developer for the Memorial Sloan Kettering Cancer Center, where I prototyped a data processing and visualization platform in the clinical, research and education departments. 
 
 🌵 **Current interests:**
 
