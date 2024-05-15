@@ -25,7 +25,7 @@
 
 - I love weightlifting! I’m currently aiming for 4, 3, 2, plates on my deadlift, squat, and bench
 - I’m a huge bibliophile; I appreciate any and all book recommendations!
-- You can find an update list of books [here](https://checker-ceramic-ddb.notion.site/Simon-s-Booklist-555d7d4891e24ed289aad3500b7447a3?pvs=4)
+- You can find an updated list of books [here](https://checker-ceramic-ddb.notion.site/Simon-s-Booklist-555d7d4891e24ed289aad3500b7447a3?pvs=4)
 
 📬 **How to reach me:**
 
