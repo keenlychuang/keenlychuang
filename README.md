@@ -1,3 +1,6 @@
+[<img src="intro.gif" title="👋 Hi! I'm Simon Chuang"/>](https://github.com/keenlychuang/)
+
+
 ### 🌊 Ayo, whatup y'all? 
 
 📖 **About me:**
@@ -31,3 +34,5 @@
 
 - LinkedIn: [https://www.linkedin.com/in/keenly-chuang/](https://www.linkedin.com/in/keenly-chuang/)
 - Email: keenlyschuang(at)gmail.com
+
+Thanks to [Raymo111](https://raymond.li/) for his open source intro animation! 
