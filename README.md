@@ -1,4 +1,4 @@
-[<img src="[intro.gif](intro.gif)" title="👋 Hi! I'm Simon Chuang"/>](https://github.com/keenlychuang/)
+[<img src="intro.gif" title="👋 Hi! I'm Simon Chuang"/>](https://github.com/keenlychuang/)
 
 
 ### 🌊 Ayo, whatup y'all? 
