@@ -1,4 +1,4 @@
-[<img src="[intro.gif](https://github.com/keenlychuang/keenlychuang/blob/8ac04f0fca45a541c6c7ef11075f93c80b94766f/intro.gif)" title="👋 Hi! I'm Simon Chuang"/>](https://github.com/keenlychuang/)
+[<img src="[https://github.com/keenlychuang/keenlychuang/blob/8ac04f0fca45a541c6c7ef11075f93c80b94766f/intro.gif](https://github.com/keenlychuang/keenlychuang/blob/8ac04f0fca45a541c6c7ef11075f93c80b94766f/intro.gif)" title="👋 Hi! I'm Simon Chuang"/>](https://github.com/keenlychuang/)
 
 
 ### 🌊 Ayo, whatup y'all? 
