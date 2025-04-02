@@ -7,7 +7,7 @@
 
 - Software/Data Engineer working in Atlanta, GA → Boston, MA -> Washington, DC
 - Working to use information and engineering to build scalable solutions to pressing issues
-- Invested in investigating truth and reliability for human prosperity in artifical intelligence. 
+- Invested in investigating truth and reliability in artifical intelligence for human prosperity. 
 
 🪨 **Previous work:**
 
