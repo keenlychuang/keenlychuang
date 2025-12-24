@@ -6,7 +6,7 @@
 📖 **About me:**
 
 - Software/Data Engineer working in Atlanta, GA → Boston, MA -> Washington, DC
-- Working to use information and engineering to build scalable solutions to pressing issues
+- Working to use information and engineering to build scalable solutions to pressing issues. 
 - Invested in investigating truth and reliability in artifical intelligence for human prosperity. 
 
 🪨 **Previous work:**
@@ -28,7 +28,7 @@
 
 🎨 **Fun facts:**
 
-- I love weightlifting and running. I'm aiming for my first marathon at the end of the year! 
+- I love weightlifting and running. I ran my first marathon this year, and I'm hoping for another next year!
 - I’m a huge bibliophile; I appreciate any and all book recommendations!
 - You can find an updated list of books [here](https://checker-ceramic-ddb.notion.site/Simon-s-Booklist-555d7d4891e24ed289aad3500b7447a3?pvs=4)
 
