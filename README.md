@@ -1,38 +1,38 @@
-[<img src="intro.gif" title="👋 Hi! I'm Simon Chuang"/>](https://github.com/keenlychuang/)
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/intro-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/intro-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.svg">
+  <img src="assets/intro-light.svg" width="900" alt="Keenly S. Chuang. An engineer’s notebook. Curious human working with data and intelligent systems. A small particle sketch resolves into a signal.">
+</picture>
 
+## Ayo, whatup y’all?
 
-### 🌊 Ayo, whatup y'all? 
+I’m **Keenly**, a software and data engineer in Washington, DC. I’m interested in making AI systems more **reliable, understandable, and useful** — and using engineering to work on problems that matter.
 
-📖 **About me:**
+### Building & exploring
 
-- Software/Data Engineer working in Atlanta, GA → Boston, MA -> Washington, DC
-- Working to use information and engineering to build scalable solutions to pressing issues. 
-- Invested in investigating truth and reliability in artifical intelligence for human prosperity. 
+AI interpretability · probabilistic computing · alternatives to transformer architectures · visualization for STEM education
 
-🪨 **Previous work:**
+I’m always up for collaborating on tools that make complex ideas easier to see.
 
-- I was an AI researcher at the Probabilistic Computing Project at MIT ([probcomp](http://probcomp.csail.mit.edu/%29)) for my Masters of Engineering degree 
-- I also worked on trace visualization, data synthesis, and testing for Cora Agent in the Machine Common Sense ([MCS](https://www.darpa.mil/program/machine-common-sense)) challenge with the MIT-IBM Watson AI Lab
-- I interned as a digital informatics and technology developer for the Memorial Sloan Kettering Cancer Center ([MSKCC](https://www.mskcc.org/)), where I prototyped a data processing and visualization platform in the clinical, research and education departments.
+| A few projects | What’s inside |
+| :--- | :--- |
+| [DBUSE](https://github.com/keenlychuang/dbuse-proto) | Question answering across collections of PDF, Word, and Excel documents. |
+| [Bookbridge](https://github.com/keenlychuang/bookbridge) | Turning booklists into Notion databases with language models. |
+| [Diffusion text](https://github.com/keenlychuang/diff-grid-text) | A little experiment in finding words in digital noise. |
 
-🌵 **Current interests:**
+### Previously
 
-- AI safety, ethics, trust research
-- Applications and alternatives to transformer based LLMs as foundation models
-- ([DMV cafes](https://checker-ceramic-ddb.notion.site/DMV-Coffee-Reviews-1036253e11ab80219f94d95ceaf57690?pvs=74)) and libraries
+- **MIT · Probabilistic Computing Project** — AI research during my MEng. [probcomp ↗](https://probcomp.csail.mit.edu/)
+- **MIT–IBM Watson AI Lab** — trace visualization, data synthesis, and testing for Cora in DARPA’s Machine Common Sense challenge.
+- **Memorial Sloan Kettering** — prototyping data processing and visualization tools for clinical, research, and education teams.
 
-🍎 **I’m looking to collaborate on:**
+### Away from the keyboard
 
-- Visualization tools and examples for STEM education
-- Fun, cool projects involving AI interpretability. 
+Usually running, lifting, reading, or finding another café to sit in. Marathon finisher; ongoing collector of book recommendations.
 
-🎨 **Fun facts:**
+[On my bookshelf ↗](https://checker-ceramic-ddb.notion.site/Simon-s-Booklist-555d7d4891e24ed289aad3500b7447a3?pvs=4) &nbsp; · &nbsp; [Around the DMV ↗](https://checker-ceramic-ddb.notion.site/DMV-Coffee-Reviews-1036253e11ab80219f94d95ceaf57690?pvs=74)
 
-- I love weightlifting and running. I ran my first marathon this year, and I'm hoping for another next year!
-- I’m a huge bibliophile; I appreciate any and all book recommendations!
-- You can find an updated list of books [here](https://checker-ceramic-ddb.notion.site/Simon-s-Booklist-555d7d4891e24ed289aad3500b7447a3?pvs=4)
+---
 
-📬 **How to reach me:**
-
-- LinkedIn: [https://www.linkedin.com/in/keenly-chuang/](https://www.linkedin.com/in/keenly-chuang/)
-- Email: keenlyschuang(at)gmail.com
+[LinkedIn ↗](https://www.linkedin.com/in/keenly-chuang/) &nbsp; · &nbsp; [Say hello ↗](mailto:keenlyschuang@gmail.com)
