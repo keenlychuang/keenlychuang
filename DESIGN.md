@@ -5,8 +5,9 @@ cool paper and slate, restrained blue, system sans-serif text, monospaced
 labels, thin dividers, and a narrow desktop rail.
 
 The README selects one of four self-contained SVGs in `assets/` for light/dark
-appearance and desktop/phone layouts. The particle sketch resolves into a
-signal within three seconds. Reduced-motion preferences show the finished
+appearance and desktop/phone layouts. The particle cloud converges into a
+three-dimensional curved surface within four seconds. The surface uses an
+orthographic projection, a wireframe mesh, and subtle shading to convey depth. Reduced-motion preferences show the finished
 figure immediately. No remote fonts, services, workflows, or runtime scripts
 are required. The original GIF is retained but is no longer loaded.
 

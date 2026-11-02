@@ -2,7 +2,7 @@
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/intro-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/intro-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.svg">
-  <img src="assets/intro-light.svg" width="900" alt="Keenly S. Chuang. An engineer’s notebook. Curious human working with data and intelligent systems. A small particle sketch resolves into a signal.">
+  <img src="assets/intro-light.svg" width="900" alt="Keenly S. Chuang. Curious human working with data and intelligent systems. Scattered particles converge into a three-dimensional curved surface.">
 </picture>
 
 ## Ayo, whatup y’all?
