@@ -14,7 +14,7 @@ const number = value => value.toFixed(2);
 // screen position; the initial cloud occupies a volume around the same sheet.
 function surface(mobile, ink) {
   const columns = 13, rows = 11;
-  const center = mobile ? [240, 280] : [739, 207];
+  const center = mobile ? [240, 236] : [739, 207];
   const frame = mobile ? [370, 170] : [254, 146];
   let seed = 23823;
   const random = () => {
@@ -64,11 +64,11 @@ function surface(mobile, ink) {
 }
 
 function banner(theme, mobile) {
-  const p = themes[theme], w = mobile ? 480 : 900, h = mobile ? 380 : 300;
+  const p = themes[theme], w = mobile ? 480 : 900, h = mobile ? 336 : 300;
   const tx = mobile ? 28 : 230;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="title desc">
-<title id="title">Keenly S. Chuang — Curious human.</title>
-<desc id="desc">Curious human working with data and intelligent systems. Scattered particles converge into a three-dimensional curved surface. Motion settles within four seconds; reduced-motion preferences show the finished surface immediately.</desc>
+<title id="title">Keenly S. Chuang</title>
+<desc id="desc">Working with data and intelligent systems. Scattered particles converge into a three-dimensional curved surface. Motion settles within four seconds; reduced-motion preferences show the finished surface immediately.</desc>
 <style>
 text{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:${p.ink}}
 .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.muted{fill:${p.muted}}
@@ -80,10 +80,9 @@ text{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe
 </style>
 <rect width="${w}" height="${h}" fill="${p.paper}"/>
 ${mobile ? `<text class="mono" x="28" y="39" font-size="18" font-weight="500" letter-spacing="-.7">Keenly S. Chuang</text><path d="M28 59H452" stroke="${p.line}"/>` :
-`<path d="M193 29V272" stroke="${p.line}"/><text class="mono" x="30" y="51" font-size="20" font-weight="500" letter-spacing="-.8">Keenly S.<tspan x="30" dy="29">Chuang</tspan></text><text class="mono muted" x="30" y="135" font-size="12">Engineering<tspan x="30" dy="27">Reading</tspan><tspan x="30" dy="27">Exploring</tspan></text>`}
-<text x="${tx - 2}" y="${mobile ? 115 : 89}" font-size="${mobile ? 36 : 43}" font-weight="500" letter-spacing="-1.7">Curious human.</text>
-<text x="${tx}" y="${mobile ? 153 : 128}" font-size="${mobile ? 16 : 17}">I work with data and intelligent systems.</text>
-<text class="mono muted" x="${tx}" y="${mobile ? 185 : 175}" font-size="12">software &amp; data${mobile ? '' : `<tspan x="${tx}" dy="26">probabilistic computing</tspan><tspan x="${tx}" dy="26">AI interpretability</tspan>`}</text>
+`<path d="M193 29V272" stroke="${p.line}"/><g id="sidebar-copy" transform="translate(0 37)"><text class="mono" x="30" y="51" font-size="20" font-weight="500" letter-spacing="-.8">Keenly S.<tspan x="30" dy="29">Chuang</tspan></text><text class="mono muted" x="30" y="135" font-size="12">Engineering<tspan x="30" dy="27">Reading</tspan><tspan x="30" dy="27">Exploring</tspan></text></g>`}
+<text x="${tx}" y="${mobile ? 109 : 128}" font-size="${mobile ? 16 : 17}">I work with data and intelligent systems.</text>
+<text class="mono muted" x="${tx}" y="${mobile ? 141 : 175}" font-size="12">software &amp; data${mobile ? '' : `<tspan x="${tx}" dy="26">probabilistic computing</tspan><tspan x="${tx}" dy="26">AI interpretability</tspan>`}</text>
 ${surface(mobile, p.link)}
 </svg>\n`;
 }
