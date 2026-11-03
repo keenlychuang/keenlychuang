@@ -82,7 +82,7 @@ text{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe
 ${mobile ? `<text class="mono" x="28" y="39" font-size="18" font-weight="500" letter-spacing="-.7">Keenly S. Chuang</text><path d="M28 59H452" stroke="${p.line}"/>` :
 `<path d="M193 29V232" stroke="${p.line}"/><g id="sidebar-copy" transform="translate(0 17)"><text class="mono" x="30" y="51" font-size="20" font-weight="500" letter-spacing="-.8">Keenly S.<tspan x="30" dy="29">Chuang</tspan></text><text class="mono muted" x="30" y="135" font-size="12">Engineering<tspan x="30" dy="27">Reading</tspan><tspan x="30" dy="27">Exploring</tspan></text></g>`}
 <g id="main-copy"><text x="${tx}" y="${mobile ? 109 : 88}" font-size="${mobile ? 16 : 17}" font-weight="500">I work with data and intelligent systems.</text>
-<text class="mono muted" x="${tx}" y="${mobile ? 141 : 135}" font-size="12">software &amp; data${mobile ? '' : `<tspan x="${tx}" dy="26">probabilistic computing</tspan><tspan x="${tx}" dy="26">AI interpretability</tspan>`}</text></g>
+<text class="mono muted" x="${tx}" y="${mobile ? 141 : 135}" font-size="12">software &amp; data${mobile ? '' : `<tspan x="${tx}" dy="26">probabilistic computing</tspan><tspan x="${tx}" dy="26">AI evaluations</tspan>`}</text></g>
 ${surface(mobile, p.link)}
 </svg>\n`;
 }

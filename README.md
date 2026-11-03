@@ -11,7 +11,7 @@ I’m **Keenly**, a software engineer in Washington, DC. I’m interested in mak
 
 ### Building & exploring
 
-AI interpretability · probabilistic computing · visualization for STEM education
+AI evaluations · probabilistic computing · visualization for STEM education
 
 I’m always up for collaborating on tools that make complex ideas easier to see.
 
