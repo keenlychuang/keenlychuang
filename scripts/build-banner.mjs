@@ -14,7 +14,7 @@ const number = value => value.toFixed(2);
 // screen position; the initial cloud occupies a volume around the same sheet.
 function surface(mobile, ink) {
   const columns = 13, rows = 11;
-  const center = mobile ? [240, 236] : [739, 207];
+  const center = mobile ? [240, 236] : [739, 130];
   const frame = mobile ? [370, 170] : [254, 146];
   let seed = 23823;
   const random = () => {
@@ -60,11 +60,11 @@ function surface(mobile, ink) {
     const alpha = .48 + (v.depth + 2) / 4 * .45;
     return `<circle class="point" cx="${number(v.final[0])}" cy="${number(v.final[1])}" r="${number(1.05 + (v.depth + 2) / 4 * .55)}" style="--dx:${number(v.start[0]-v.final[0])}px;--dy:${number(v.start[1]-v.final[1])}px;--alpha:${alpha.toFixed(2)};--delay:${v.delay.toFixed(2)}s;opacity:${alpha.toFixed(2)}"/>`;
   });
-  return `<g fill="${ink}" stroke-linejoin="round"><g class="sheet">${faces.join('')}</g><g class="mesh" fill="none" stroke="${ink}" stroke-width=".65" opacity=".42">${wires.join('')}</g>${dots.join('')}</g>`;
+  return `<g id="surface" fill="${ink}" stroke-linejoin="round"><g class="sheet">${faces.join('')}</g><g class="mesh" fill="none" stroke="${ink}" stroke-width=".65" opacity=".42">${wires.join('')}</g>${dots.join('')}</g>`;
 }
 
 function banner(theme, mobile) {
-  const p = themes[theme], w = mobile ? 480 : 900, h = mobile ? 336 : 300;
+  const p = themes[theme], w = mobile ? 480 : 900, h = mobile ? 336 : 260;
   const tx = mobile ? 28 : 230;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="title desc">
 <title id="title">Keenly S. Chuang</title>
@@ -80,9 +80,9 @@ text{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe
 </style>
 <rect width="${w}" height="${h}" fill="${p.paper}"/>
 ${mobile ? `<text class="mono" x="28" y="39" font-size="18" font-weight="500" letter-spacing="-.7">Keenly S. Chuang</text><path d="M28 59H452" stroke="${p.line}"/>` :
-`<path d="M193 29V272" stroke="${p.line}"/><g id="sidebar-copy" transform="translate(0 37)"><text class="mono" x="30" y="51" font-size="20" font-weight="500" letter-spacing="-.8">Keenly S.<tspan x="30" dy="29">Chuang</tspan></text><text class="mono muted" x="30" y="135" font-size="12">Engineering<tspan x="30" dy="27">Reading</tspan><tspan x="30" dy="27">Exploring</tspan></text></g>`}
-<text x="${tx}" y="${mobile ? 109 : 128}" font-size="${mobile ? 16 : 17}">I work with data and intelligent systems.</text>
-<text class="mono muted" x="${tx}" y="${mobile ? 141 : 175}" font-size="12">software &amp; data${mobile ? '' : `<tspan x="${tx}" dy="26">probabilistic computing</tspan><tspan x="${tx}" dy="26">AI interpretability</tspan>`}</text>
+`<path d="M193 29V232" stroke="${p.line}"/><g id="sidebar-copy" transform="translate(0 17)"><text class="mono" x="30" y="51" font-size="20" font-weight="500" letter-spacing="-.8">Keenly S.<tspan x="30" dy="29">Chuang</tspan></text><text class="mono muted" x="30" y="135" font-size="12">Engineering<tspan x="30" dy="27">Reading</tspan><tspan x="30" dy="27">Exploring</tspan></text></g>`}
+<g id="main-copy"><text x="${tx}" y="${mobile ? 109 : 88}" font-size="${mobile ? 16 : 17}" font-weight="500">I work with data and intelligent systems.</text>
+<text class="mono muted" x="${tx}" y="${mobile ? 141 : 135}" font-size="12">software &amp; data${mobile ? '' : `<tspan x="${tx}" dy="26">probabilistic computing</tspan><tspan x="${tx}" dy="26">AI interpretability</tspan>`}</text></g>
 ${surface(mobile, p.link)}
 </svg>\n`;
 }
